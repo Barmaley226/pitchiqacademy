@@ -69,7 +69,7 @@ p {
 
 .lead {
   font-size: 1.25rem;
-  color: var(--dark);
+  color: var(--white);
 }
 
 .section-title {
@@ -114,13 +114,14 @@ p {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: var(--dark);
+  color: inherit;
 }
 
 .logo-text {
   margin-left: 0.5rem;
   font-weight: 700;
   font-size: 1.25rem;
+  color: var(--white) !important;
 }
 
 .nav-list {
@@ -201,6 +202,7 @@ p {
 .hero h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  color: var(--white);
 }
 
 .hero .lead {

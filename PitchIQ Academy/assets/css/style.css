@@ -569,6 +569,22 @@ p {
   color: var(--white);
 }
 
+/* ===== drill page image sizing ===== */
+.drill-image{
+  max-width:480px;
+  width:100%;
+  height:auto;
+  display:block;
+  margin:0.75rem auto;
+  border-radius:8px;
+  box-shadow: 0 6px 18px rgba(10,24,34,0.06);
+}
+
+/* smaller on very small screens */
+@media (max-width:420px){
+  .drill-image{ max-width:320px; }
+}
+
 /* ===== RESPONSIVE STYLES ===== */
 @media (max-width: 767px) {
   .mobile-menu-button {
